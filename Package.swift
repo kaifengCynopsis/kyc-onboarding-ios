@@ -52,7 +52,7 @@ let package = Package(
         .binaryTarget(
             name: "KycOnboardingSDK",
             url: "https://github.com/kaifengCynopsis/kyc-onboarding-ios/releases/download/0.1.0-beta.1/KycOnboardingSDK.xcframework.zip",
-            checksum: "ac8319a24e2da3242a6a6d1e11098cd6c00876a6a2f5881be2efd5551339730b"
+            checksum: "e19c59cfe4aa5f12399d0fa4f3560b6ad9f32ea05878280b47aaa088f8975b54"
         ),
 
         // Dependency wrapper target
