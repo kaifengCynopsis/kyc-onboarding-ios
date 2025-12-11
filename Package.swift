@@ -4,13 +4,13 @@ import PackageDescription
 /// Binary distribution package for KycOnboardingSDK
 /// This package provides pre-built XCFramework binaries with automatic dependency resolution
 ///
-/// Repository: https://github.com/cynopsis-solutions/kyc-onboarding-ios-binary
+/// Repository: https://github.com/kaifengCynopsis/kyc-onboarding-ios
 /// Binary Source: https://github.com/kaifengCynopsis/kyc-onboarding-ios/releases
 ///
 /// Usage:
 /// 1. Xcode → File → Add Package Dependencies
-/// 2. Enter: https://github.com/cynopsis-solutions/kyc-onboarding-ios-binary.git
-/// 3. Select version (e.g., 0.1.0-beta.1)
+/// 2. Enter: https://github.com/kaifengCynopsis/kyc-onboarding-ios.git
+/// 3. Select version tag: 0.1.0-beta.1-binary
 /// 4. Add to your target
 ///
 /// Requirements:

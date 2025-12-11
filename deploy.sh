@@ -18,7 +18,7 @@ fi
 if [ ! -d ".git" ]; then
     echo "📦 初始化 Git 仓库..."
     git init
-    git remote add origin https://github.com/kaifengCynopsis/kyc-onboarding-ios-binary.git
+    git remote add origin https://github.com/kaifengCynopsis/kyc-onboarding-ios.git
 fi
 
 # 创建 .gitignore
@@ -97,18 +97,16 @@ echo "✅ 本地准备完成！"
 echo ""
 echo "📤 下一步操作："
 echo ""
-echo "1. 在 GitHub 上创建新仓库（如果还没有）:"
-echo "   https://github.com/new"
-echo "   仓库名: kyc-onboarding-ios-binary"
-echo ""
-echo "2. 推送到 GitHub:"
+echo "1. 推送到 GitHub 仓库:"
 echo "   git push origin main"
 echo "   git push origin $VERSION"
 echo ""
-echo "3. 在 GitHub 上验证:"
-echo "   https://github.com/kaifengCynopsis/kyc-onboarding-ios-binary"
+echo "2. 在 GitHub 上验证:"
+echo "   https://github.com/kaifengCynopsis/kyc-onboarding-ios"
+echo "   检查 binary 分支和 $VERSION 标签"
 echo ""
-echo "4. 测试 SPM 集成:"
+echo "3. 测试 SPM 集成:"
 echo "   Xcode → Add Package Dependency"
-echo "   输入: https://github.com/kaifengCynopsis/kyc-onboarding-ios-binary.git"
+echo "   输入: https://github.com/kaifengCynopsis/kyc-onboarding-ios.git"
+echo "   选择标签: $VERSION"
 echo ""

@@ -60,7 +60,7 @@
 ```swift
 dependencies: [
     .package(
-        url: "https://github.com/kaifengCynopsis/kyc-onboarding-ios-binary.git",
+        url: "https://github.com/kaifengCynopsis/kyc-onboarding-ios.git",
         exact: "0.1.0-beta.1-binary"
     )
 ],
@@ -68,7 +68,7 @@ targets: [
     .target(
         name: "YourTarget",
         dependencies: [
-            .product(name: "KycOnboardingSDK", package: "kyc-onboarding-ios-binary")
+            .product(name: "KycOnboardingSDK", package: "kyc-onboarding-ios")
         ]
     )
 ]
@@ -86,7 +86,7 @@ swift package show-dependencies
 应该看到:
 ```
 .
-└── kyc-onboarding-ios-binary
+└── kyc-onboarding-ios
     ├── amplify-swift (2.42.1)
     ├── amplify-ui-swift-liveness (1.0.1)
     └── veriff-ios-spm (7.x.x)
