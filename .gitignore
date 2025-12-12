@@ -30,3 +30,4 @@ Pods/
 # Backup files
 *.backup
 *~
+*.md
