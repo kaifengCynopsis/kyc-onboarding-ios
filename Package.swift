@@ -51,8 +51,8 @@ let package = Package(
         // Pre-built XCFramework binary from GitHub Release
         .binaryTarget(
             name: "KycOnboardingSDK",
-            url: "https://github.com/kaifengCynopsis/kyc-onboarding-ios/releases/download/0.1.0-beta.1/KycOnboardingSDK.xcframework.zip",
-            checksum: "e19c59cfe4aa5f12399d0fa4f3560b6ad9f32ea05878280b47aaa088f8975b54"
+            url: "https://github.com/kaifengCynopsis/kyc-onboarding-ios/releases/download/0.1.0-beta.2/KycOnboardingSDK.xcframework.zip",
+            checksum: "6e2980687d881b1b87c99e52b49f95b59f534d3fd762779add6fba07e65db9df"
         ),
 
         // Dependency wrapper target
