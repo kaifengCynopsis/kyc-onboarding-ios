@@ -10,7 +10,7 @@ import PackageDescription
 /// Usage:
 /// 1. Xcode → File → Add Package Dependencies
 /// 2. Enter: https://github.com/kaifengCynopsis/kyc-onboarding-ios.git
-/// 3. Select version tag: 0.1.0-beta.1-binary
+/// 3. Select version tag: 0.1.0-beta.2
 /// 4. Add to your target
 ///
 /// Requirements:
